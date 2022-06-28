@@ -24,7 +24,7 @@ namespace Manages_File
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
+//crear algoritmo para guardar archivo.
         }
     }
 }
