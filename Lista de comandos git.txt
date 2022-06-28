@@ -1,0 +1,36 @@
+Clonar proyecto
+git clone {url del proyecto}
+
+Agregar archivos del proyecto 
+git add .
+
+Crear commit (punto de version de la aplicacion)
+git commit -m "colocar mensaje en 3 persona"
+
+Subir cambios al repositorio 
+git push origin main
+
+Crear una rama
+
+git checkout -b {nombre de la rama}
+
+Para subir el codigo a su nueva rama despues de hacer checkout
+git push origin {nombre de la rama}
+
+
+Cambiar a una rama existente
+
+git checkout {nombre de la rama}
+----------------------------------------------------------------------
+Agregar el comando git a un proyecto que no cuente con git
+git init
+
+Indicar la url del proyecto en el repositorio
+git remote add origin {url del proyecto}
+
+-----------------------------------------------------------------------
+Nota:
+antes de subir un cambio o para traer algun cambio de un componero ejecutar
+el siguiente comando.
+
+git pull origin [nombre de la rama]
