@@ -25,6 +25,9 @@ namespace Manages_File
         private void btnGuardar_Click(object sender, EventArgs e)
         {
 
+
+            var num = 3;
+            MessageBox.Show(num.ToString());
         }
     }
 }
