@@ -21,6 +21,7 @@ namespace Manages_File
             Application.Run(new Form1());
             //forzando merge
             
+            
         }
     }
 }
